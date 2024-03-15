@@ -9,12 +9,14 @@ public class Ex27 {
 		double r;
 		double circle;
 		
-		System.out.print("반지름을 입력하세요: " + pai);
+		System.out.print("반지름을 입력하세요: ");
 		Scanner scanner = new Scanner(System.in);
-		r = scanner.nextdouble();
+		r = scanner.nextDouble();
 		
+		circle = r*r*pai;
 		System.out.print("원의 넓이는 " + circle);
 		
+		scanner.close();
 	}
 
 }
