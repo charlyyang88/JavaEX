@@ -1,4 +1,4 @@
-package com.javaex.practice;
+package com.javaex.practice01;
 
 public class Hello { // 자바 파일명과 클래스명 대소문자 완전 일치 필요
 

@@ -1,4 +1,4 @@
-package com.javaex.practice;
+package com.javaex.practice01;
 
 public class Ex17 {
 //	다음 코드의 오류가 나는 부분을 찾은 후 이유를 작성하세요

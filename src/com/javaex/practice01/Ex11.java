@@ -1,4 +1,4 @@
-package com.javaex.practice;
+package com.javaex.practice01;
 
 public class Ex11 {
 //아래의 코드에서 오류가 발생하는 부분을 예상하고 수정하세요

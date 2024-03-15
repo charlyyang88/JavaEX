@@ -1,4 +1,4 @@
-package com.javaex.practice;
+package com.javaex.practice01;
 
 public class Ex10 {
 ////형 변환(t ype casting) 우선순위를 그린 표이다 아래의 빈칸을 채우세요

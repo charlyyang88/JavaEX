@@ -1,4 +1,4 @@
-package com.javaex.practice;
+package com.javaex.practice01;
 
 public class Ex05 {
 //	자바 소스파일(~. java)을 작성할 때 틀린 것을 찾아 수정해보세요

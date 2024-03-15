@@ -1,4 +1,4 @@
-package com.javaex.practice;
+package com.javaex.practice01;
 
 public class Ex06 {
 //	아래의 설명 중 틀린 것을 찾아서 수정해 보세요.

@@ -1,4 +1,4 @@
-package com.javaex.practice;
+package com.javaex.practice01;
 
 public class Ex04 {
 //	java 프로그램 개발과정을 순서대로 나열해 보세요

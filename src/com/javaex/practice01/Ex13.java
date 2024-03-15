@@ -1,4 +1,4 @@
-package com.javaex.practice;
+package com.javaex.practice01;
 
 public class Ex13 {
 // 다음 중 결과값이 다른 것을 선택하고 이유를 설명해 보세요
