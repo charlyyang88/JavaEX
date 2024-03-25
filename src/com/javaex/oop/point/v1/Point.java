@@ -1,4 +1,4 @@
-package com.javaex.oop.pointv1;
+package com.javaex.oop.point.v1;
 
 public class Point {
 	private int x;
