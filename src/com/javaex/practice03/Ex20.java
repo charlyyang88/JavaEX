@@ -1,5 +1,8 @@
 package com.javaex.practice03;
 
+import java.util.Random;
+import java.util.Scanner;
+
 public class Ex20 {
 //	아래와 설명에 맞는 프로그램을 작성하세요
 //	숨겨진 숫자를 맞추는 게임입니다.
@@ -11,7 +14,38 @@ public class Ex20 {
 //	(y 인 경우 다시 게임이 시작됩니다.)
 //	*개발시 랜덤하게 생성된 값을 출력해서 테스트 하면 편리합니다.
 	public static void main(String[] args) {
-		
+		System.out.println("========================");
+		System.out.println("    [숫자 맞추기 게임 시작]   ");
+		System.out.println("========================");
+		Random random = new Random();
+		int randomNumber = random.nextInt(100) + 1;
+		System.out.println("랜덤 넘버>> " + randomNumber); 	// 테스트용 코드
+
+		while (true) {
+			Scanner sc = new Scanner(System.in);
+			System.out.print("맞춰봐>> ");
+			int num = sc.nextInt();
+
+			if (num < randomNumber) {
+				System.out.println("더 높게");
+			} else if (num > randomNumber) {
+				System.out.println("더 낮게");
+			} else {
+				System.out.println("맞았습니다.");
+				System.out.println("게임을 종료하시겠습니까?(y/n) >>");
+				String userChoice = sc.next();
+				if (userChoice.equals("y")) {
+					System.out.println("========================");
+					System.out.println("    [숫자 맞추기 게임 종료]   ");
+					System.out.println("========================");
+					break; // 무한 루프 종료
+				} else {
+					randomNumber = random.nextInt(100) + 1; // 새 게임 시작
+				}
+			}
+
+		}
+
 	}
 
 }

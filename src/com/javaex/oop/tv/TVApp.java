@@ -5,18 +5,18 @@ public class TVApp {
 	public static void main(String[] args) {
 		TV tv = new TV(7, 20, false);
 		
-		tv.status();
+		tv.status(); // 꺼져있는 상태
 		
-		tv.power(true);
-		tv.volume(120);
+		tv.power(true); // 전원 켜기
+		tv.volume(120); // 음량의 범위를 벗어남
 		tv.status();
-		
-		tv.volume(false);
+
+		tv.channel(false); // 채널의 범위를 벗어남
 		tv.status();
-		
-		tv.channel(true);
-		tv.channel(true);
-		tv.channel(true);
+
+		tv.channel(true); // channel +1
+		tv.channel(true); // channel +1
+		tv.channel(true); // channel +1
 		tv.status();
 
 		tv.power(false);
