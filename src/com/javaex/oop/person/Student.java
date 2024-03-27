@@ -5,7 +5,7 @@ public class Student extends Person {
 	
 	public Student(String schoolName) {
 		// 생성자 내에서 부모 생성자를 호출하지 않으면 부보의 기본 생성자 호출
-		super("",0);
+		super("null",0);
 		this.schoolName = schoolName;
 		
 	}
@@ -30,7 +30,8 @@ public class Student extends Person {
 	
 	@Override	// 현재 메서드가 Override 인지 확인
 	public void showInfo() {
-		System.out.printf("이름: %s, 나이: %d, 학교: %s%n", name, age, schoolName);
+		super.showInfo();
+		System.out.printf("학교: %s%n", schoolName);
 	}
 	
 

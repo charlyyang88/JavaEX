@@ -9,7 +9,7 @@ public class ColorPoint extends Point {
 	// 생성자(기본 생성자가 없으면 자바 컴파일러가 기본 생성자를 추가함)
 	public ColorPoint(String color) {
 		// 생성자 내에서 부모 생성자를 호출하지 않으면 부보의 기본 생성자 호출
-		super(0, 0);
+		super(0, 0); // >> 부모 클래스에서 초기화 되지 않았기 때문에 자식 클래스에서 초기해 해줌, 이때 super() 는 불가
 		this.color = color;
 		
 	}

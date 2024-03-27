@@ -4,9 +4,12 @@ public class Person {
 	protected String name;
 	protected int age;
 	
+	// 생성자
 	public Person(String name, int age) {
+		super(); // 부모 클래스 초기화 > 이게 없으면 자식 클래스에서 초기화
 		this.name = name;
 		this.age = age;
+		System.out.println("	Instance Person Constructor ");
 	}
 	
 	
